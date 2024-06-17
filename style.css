@@ -10,7 +10,9 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* Global Styles */
+
 
 h1 {
   font-size: 50px;
@@ -54,6 +56,7 @@ body {
 
 
 /* Header Start */
+
 
 #header {
     display: flex;
@@ -112,7 +115,10 @@ body {
 #close {
   display: none;
 }
+    
+
 /* Home Page */
+
 
 #banner {
     background-image: url("img/hero4.png");
@@ -408,6 +414,49 @@ footer .copyright {
   width: 100%;
   text-align: center;
 }
+
+
+/* Shop Page */
+
+
+#shop-banner {
+  background-image: url("img/banner/b1.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#shop-banner h2,
+#shop-banner p{
+  color: white;
+}
+
+#page-number {
+  text-align: center;
+}
+
+#page-number a {
+  text-decoration: none;
+  background-color: green;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+}
+
+#page-number a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/* media code */
+
 
 @media (max-width:799px) {
 
